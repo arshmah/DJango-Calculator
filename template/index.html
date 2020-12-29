@@ -1,0 +1,108 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition</title>
+</head>
+<body style="background-color: darkkhaki;">
+    <h2 style="color: cyan;"> My name is {{first_name}}</h2>
+    <h2 style="color: cyan;"> I am from {{country }}</h2>-->
+<!--<h2 style="color: cyan;"> ENTER NUMBERS!</h2>
+    <form action="/sum" >
+        <input type="number" name="ad1">
+        <input type="number" name="ad2">
+        
+        <input type="submit">
+        <h2 style="background-color: cyan;"> The sum is: {{result}}</h2>
+    </form>
+
+</body>
+</html> -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title>Calculator App!</title>
+</head>
+
+<body style="background-color: black;" style="color: rgb(160, 95, 146);">
+  <ul class="nav nav-pills nav-fill">
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Instructions</a>
+    </li>
+  </ul>
+
+  </div>
+  <h1 style="color: chartreuse;">Welcome to Calculator App!</h1>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <form action="/calculate">
+    <input type="number" name="num1">
+    <input type="number" name="num2">
+    <br />
+    <br />
+
+    <textarea name="calculate" id="" cols="30" rows="10">
+      {{ans}} {{answer}}
+    </textarea>
+    <br />
+    <button style="background-color: chartreuse; border-color: cyan; color: black; padding: 5px; width: 50px;"
+      type="submit" name="operator" value="+"> + </button>
+    <br />
+
+    <button style="background-color: chartreuse; border-color: cyan; color: black; padding: 5px; width: 50px;"
+      type="submit" name="operator" value="-"> - </button>
+    <br />
+
+    <button style="background-color: chartreuse; border-color: cyan; color: black; padding: 5px; width: 50px;"
+      type="submit" name="operator" value="*"> * </button>
+    <br />
+
+    <button style="background-color: chartreuse; border-color: cyan; color: black; padding: 5px; width: 50px;"
+      type="submit" name="operator" value="/"> / </button>
+    <br />
+
+    <button style="background-color: chartreuse; border-color: cyan; color: black; padding: 5px; width: 50px;"
+      type="submit" name="operator" value="//"> // </button>
+    <br />
+
+    <button style="background-color: chartreuse; border-color: cyan; color: black; padding: 5px; width: 50px;"
+      type="submit" name="operator" value="**"> exp </button>
+
+
+
+
+
+
+
+
+
+
+  </form>
+
+</body>
+
+</html>
